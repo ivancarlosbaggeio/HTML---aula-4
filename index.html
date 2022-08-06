@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Resumo do like">
+    <meta name="author" content="Ivan">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 3</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Outras tags html</h1>
+    </header>
+
+<section>
+    <h2>HTML Tables</h2>
+    <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Cidade</th>
+                </tr> 
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maria de Oliveira</td>
+                    <td>19</td>
+                    <td>Chapecó</td>
+                </tr>
+                <tr>
+                    <td>Graciela M.R.Lima</td>
+                    <td>30</td>
+                    <td>Chapecó</td>
+                </tr>
+                <tr>
+                    <td>Henzo Baggeio</td>
+                    <td>15</td>
+                    <td>Xaxim</td>
+                </tr>
+                
+            </tbody>
+    </table>
+</section>
+<section>
+<h2>TML Blocks x In-line</h2>
+<p>Esta tag é considerada um bloco, ou seja, ela por padrão
+     ocupará todos o espaço horizontal disponível. width=100%
+</p>
+
+<a>Link 1</a>
+<a>Link 2</a>
+<a>Link 3</a>
+
+</section>
+
+<section>
+    <h2>HTML Forms</h2>
+    <form>
+        <div>
+            <label for="nome"> Nome completo</label> <!--vincular com o comando abaixo-->
+            <input type="text" maxlength="50" placeholder="Nome completo">
+        </div>
+        
+        <div>
+            <label for="nascimento">Data de Nascimento</label>
+            <input type="data" name="nascimento">
+        </div>
+
+        <div>
+            <label for="salario">Salário</label>
+            <input type="numero" name="salario">
+        </div>
+
+        <div>
+            <label for="foto">Foto</label>
+            <input type="file" name="foto">
+        </div>
+
+        <div>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha">
+        </div>
+
+        <div>
+            <label for="estadocivil">Estado civil</label>
+            <select nome="estadocivil">
+                <option>Solteiro</option>
+                <option>Casado</option>
+                <option>Divorciado</option>
+                <option>Viuvo</option>
+        </div>
+        
+        <div>
+            <label for="observacoes">Observações</label>
+            <textarea nome="observacoes" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Salvar">
+            <input type="reset" value="Limpar">
+        </div>
+
+    </form>
+</section>
+
+</body>
+</html>
